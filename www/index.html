@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src = "script.js"></script>
         <title>Daffodil Festival</title>
     </head>
     <body>
@@ -20,7 +21,7 @@
                         <a href = "#news" class = "ui-btn ui-icon-info ui-btn-icon-top">News</a>
                     </div>
                     <div class = "ui-block-c">
-                        <a href = "#" class = "ui-btn ui-icon-calendar ui-btn-icon-top">Events</a>
+                        <a href = "#events" class = "ui-btn ui-icon-calendar ui-btn-icon-top">Events</a>
                     </div>
                     <div class = "ui-block-a">
                         <a href = "#" class = "ui-btn ui-icon-shop ui-btn-icon-top"  style = "font-size: 95%">Souvenirs</a>
@@ -122,6 +123,23 @@
                         <p>Gloucester's daffodils are in full bloom, and this year they're just in time, because the Daffodil Festival is this weekend! Festivities kick off with a parade Saturday morning, and then continue through Sunday with live music and over 200 vendors.</p>
                     </div>
                 </div>
+            </div>
+            <div data-role = "footer">
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div data-role = "page" id = "events">
+            <div data-role = "header" style = "text-align: center">
+                <h1>Events</h1>
+                <a href = "#home" class = "ui-btn ui-btn-right ui-icon-home ui-btn-icon-notext ui-corner-all">Home</a>
+            </div>
+            <div data-role = "main">
+                <ul data-role = "listview" id = "all"> 
+                </ul>
+                <ul data-role = "listview" id = "mine">
+                </ul>
             </div>
             <div data-role = "footer">
                 <br>
